@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "nodejs-testing"
+  annotations:
+    "humanitec.com/orgId": "azure-laboratory"
+    "humanitec.com/appId": "nodejs-testing"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
